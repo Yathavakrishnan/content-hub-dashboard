@@ -1,0 +1,17 @@
+:root {
+  --paper: #faf7f1;
+  --ink: #1d2524;
+  --muted: #7b817d;
+  --border: #d9d6ce;
+  --orange: #e6603b;
+  --mono: 'DM Mono', monospace;
+  font-family: 'Space Grotesk', sans-serif;
+  color: var(--muted);
+  background: var(--paper);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+html, body, #root { min-height: 100%; }
+body { margin: 0; min-width: 320px; background: var(--paper); }
